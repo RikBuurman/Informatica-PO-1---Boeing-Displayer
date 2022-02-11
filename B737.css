@@ -32,6 +32,7 @@ a{
 }
 
 ul{
+  margin-left:20px;
   width:145px;
   color:grey;  
   font-family: monospace;
@@ -45,3 +46,9 @@ ul{
 a:hover {
   color:rgb(22, 21, 21);
 }
+
+aside{
+  margin-right:20px;
+  margin-top: 60px;
+}
+
