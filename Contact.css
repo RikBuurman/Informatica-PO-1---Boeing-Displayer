@@ -1,0 +1,37 @@
+body{
+  background-color:rgb(143, 203, 223);
+}
+
+.content{
+  display:flex;
+}
+
+iframe{
+  margin:15px;
+}
+
+header {
+  text-align: center;
+  font-family: monospace;
+  font-size: 60px;
+  color:rgb(11, 82, 104);
+}
+
+a{
+  color:grey;
+  font-family: monospace;
+  font-size: 40px;
+  text-decoration:none;
+}
+
+a:hover{
+  color:black;
+}
+
+nav{
+  color:grey;
+  font-family: monospace;
+  font-size: 30px;
+  text-decoration:none;
+  
+}
