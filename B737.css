@@ -1,5 +1,5 @@
 body{
-  background-color: lightblue;
+  background-color:rgb(36,37,130);
 }
 
 .content{
@@ -9,7 +9,7 @@ body{
 header{
   font-family: monospace;
   font-size: 75px;
-  color:rgb(11, 82, 104);
+  color:white;
   text-align:center;
 }
 
@@ -19,11 +19,11 @@ article{
   width: 75vw;
   font-family: monospace;
   margin:55px;
-  color:grey;
+  color:white;
 }
 
 a{
-  color:grey;
+  color:white;
   font-family: monospace;
   font-size: 35px;
   text-align:left;
@@ -34,7 +34,7 @@ a{
 ul{
   margin-left:20px;
   width:145px;
-  color:grey;  
+  color:white;  
   font-family: monospace;
   font-size: 35px;
   border-style:solid;
@@ -44,7 +44,7 @@ ul{
 }
 
 a:hover {
-  color:rgb(22, 21, 21);
+  color: grey;
 }
 
 aside{

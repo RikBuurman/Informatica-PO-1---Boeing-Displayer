@@ -7,12 +7,12 @@ footer{
   position: fixed;
   font-family: monospace;
   font-size: 25px;
-  color:grey;
+  color:white;
   background-color: rgb(36,37,130);
 }
 
 body{
-  background-color:rgb(47,47,162);
+  background-color:rgb(36,37,130);
 }
 
 .content{
@@ -20,23 +20,29 @@ body{
 }
 
 header{
-  width:600px;
+  width:800px;
   font-family: monospace;
   font-size: 75px;
   color:white;
-  text-align: center;
+  text-align:center;
   border-style:solid;
   border-width:7px;
   border-color:rgb(246,76,114);
   border-radius: 6px 12px 18px 24px;
   margin:30px;
+  height:200px;
 }
 
 ul{
+  width:10vw;
   color:white;  
   font-family: monospace;
   font-size: 30px;
   text-decoration:none;
+  border-style:solid;
+  border-width:7px;
+  border-color:rgb(246,76,114);
+  border-radius: 6px 12px 18px 24px;
 }
 
 nav{
@@ -44,6 +50,7 @@ nav{
   font-size:45px;
   font-family: monospace;
   text-decoration:none;
+  margin-left:25px;
 }
 
 a{
@@ -66,7 +73,7 @@ info{
 }
 
 a:hover{
-  color:rgb(22, 21, 21);
+  color:grey;
 }
 
 img{

@@ -1,5 +1,5 @@
 body{
-  background-color:rgb(143, 203, 223);
+  background-color:rgb(36,37,130);
 }
 
 .content{
@@ -14,24 +14,30 @@ header {
   text-align: center;
   font-family: monospace;
   font-size: 60px;
-  color:rgb(11, 82, 104);
+  color:white;
 }
 
 a{
-  color:grey;
+  color:white;
   font-family: monospace;
   font-size: 40px;
   text-decoration:none;
 }
 
 a:hover{
-  color:black;
+  color:grey;
 }
 
 nav{
-  color:grey;
+  color:white;
   font-family: monospace;
   font-size: 30px;
   text-decoration:none;
+  margin-left:2vw;
   
+}
+
+aside{
+  margin-top: 20vw;
+  margin-right:2vw;
 }
