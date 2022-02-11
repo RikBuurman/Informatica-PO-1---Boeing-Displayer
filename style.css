@@ -60,10 +60,11 @@ footer{
   text-align:center;
   width:100%;
   bottom:0%;
-  height:50px;
+  height:35px;
   position:fixed;
   font-family: monospace;
   font-size: 25px;
   color:grey;
+  background-color:rgb(20, 114, 109) ;
 }
 
