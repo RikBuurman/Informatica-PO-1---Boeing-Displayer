@@ -8,11 +8,11 @@ footer{
   font-family: monospace;
   font-size: 25px;
   color:grey;
-  background-color:rgb(20, 114, 109);
+  background-color: rgb(36,37,130);
 }
 
 body{
-  background-color:rgb(143, 203, 223);
+  background-color:rgb(47,47,162);
 }
 
 .content{
@@ -20,19 +20,20 @@ body{
 }
 
 header{
+  width:600px;
   font-family: monospace;
   font-size: 75px;
-  color:rgb(11, 82, 104);
+  color:white;
   text-align: center;
   border-style:solid;
   border-width:7px;
-  border-color:rgb(20, 114, 109);
+  border-color:rgb(246,76,114);
   border-radius: 6px 12px 18px 24px;
   margin:30px;
 }
 
 ul{
-  color:grey;  
+  color:white;  
   font-family: monospace;
   font-size: 30px;
   text-decoration:none;
@@ -46,7 +47,7 @@ nav{
 }
 
 a{
-  color:grey;
+  color:white;
   font-family: monospace;
   font-size: 45px;
   width:20vw;
@@ -59,12 +60,18 @@ info{
   text-align:center;
   height:350px;
   width:45vw;
-  color:grey;
+  color:white;
   font-size:35px;
   font-family: monospace;
 }
 
-a:hover {
+a:hover{
   color:rgb(22, 21, 21);
 }
 
+img{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+}
