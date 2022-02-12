@@ -29,12 +29,15 @@ header{
   border-width:7px;
   border-color:rgb(102,252,241);
   border-radius: 6px 12px 18px 24px;
-  margin:30px;
+  margin-left:25px;
+  margin-bottom: 30px;
+  margin-right:25px;
+  margin-top:30px;
   height:210px;
 }
 
 ul{
-  margin-left:25px;
+  margin-left:0px;
   width:185px;
   color:white;  
   font-family: arial black;
@@ -47,7 +50,6 @@ ul{
 }
 
 nav{
-  width:27vw;
   font-size:40px;
   font-family: arial black;
   text-decoration:none;
@@ -71,6 +73,7 @@ info{
   color:white;
   font-size:35px;
   font-family: monospace;
+  margin-left:200px;
 }
 
 a:hover{
@@ -81,5 +84,7 @@ img{
   position: absolute;
   top: 0px;
   right: 0px;
+  margin-top:25px;
+  margin-right:25px;
 
 }
