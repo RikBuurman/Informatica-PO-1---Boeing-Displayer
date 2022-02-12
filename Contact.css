@@ -1,25 +1,22 @@
 body{
-  background-color:rgb(36,37,130);
+  background-color:rgb(31,40,51);
 }
 
 .content{
   display:flex;
 }
 
-iframe{
-  margin:15px;
-}
 
 header {
   text-align: center;
-  font-family: monospace;
+  font-family: arial black;
   font-size: 60px;
   color:white;
 }
 
 a{
   color:white;
-  font-family: monospace;
+  font-family: arial black;
   font-size: 40px;
   text-decoration:none;
 }
@@ -28,16 +25,46 @@ a:hover{
   color:grey;
 }
 
+ul{
+  margin-left:25px;
+  width:725px;
+  border-style:solid;
+  border-width:6px;
+  border-color:rgb(246,76,114);
+  border-radius: 6px 12px 18px 24px;
+}
+
 nav{
   color:white;
-  font-family: monospace;
+  font-family: arial black;
   font-size: 30px;
   text-decoration:none;
   margin-left:2vw;
+  width:500px;
   
 }
 
+info{
+  margin-top:25px;
+  color:white;
+  font-family: monospace;
+  font-size: 30px;
+}
+
 aside{
-  margin-top: 20vw;
-  margin-right:2vw;
+  margin-top: 17vw;
+  margin-left:27vw;
+}
+
+footer{
+  margin:0;
+  text-align:center;
+  width:100%;
+  bottom:0%;
+  height:35px;
+  position: fixed;
+  font-family: monospace;
+  font-size: 25px;
+  color:grey;
+  background-color: rgb(31,40,51);
 }

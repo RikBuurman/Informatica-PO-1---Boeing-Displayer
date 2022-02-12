@@ -2,35 +2,50 @@
   display:flex;
 }
 
+
+article{
+  width:600px;
+  font-family:monospace;
+  color:white;
+  font-size:30px;
+  margin-left:10vw;
+  margin-top:25px;
+}
+
 header{
-  font-family: monospace;
+  font-family: arial black;
   font-size: 75px;
   color:white;
   text-align:center;
 }
 
 body{
-  background-color:rgb(36,37,130);
+  background-color:rgb(31,40,51);
+}
+
+nav{
+  width:250px;
 }
 
 a{
   color:white;
-  font-family: monospace;
+  font-family: arial black;
   font-size: 35px;
   text-align:left;
-  width:25vw;
+  width:30vw;
   text-decoration:none;
 }
 
 ul{
-  width:145px;
+  width:170px;
   color:white;  
-  font-family: monospace;
+  font-family: arial black;
   font-size: 35px;
   border-style:solid;
   border-width:6px;
-  border-color:rgb(20, 114, 109);
+  border-color:rgb(246,76,114);
   border-radius: 6px 12px 18px 24px;
+  margin-left:25px;
 }
 
 a:hover {
@@ -38,6 +53,19 @@ a:hover {
 }
 
 aside{
-  margin-left:47vw;
-  margin-top: 4vw;
+  margin-left:15vw;
+  margin-top: 3vw;
+}
+
+footer{
+  margin:0;
+  text-align:center;
+  width:100%;
+  bottom:0%;
+  height:35px;
+  position: fixed;
+  font-family: monospace;
+  font-size: 25px;
+  color:grey;
+  background-color: rgb(31,40,51);
 }
