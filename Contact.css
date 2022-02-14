@@ -5,6 +5,9 @@
   font-family:monospace;
   font-size:25px;
   color:white;
+  width:600px;
+  margin-left:385px;
+
 }
 
 input[type=submit]:hover {
@@ -54,27 +57,33 @@ a{
   text-decoration:none;
 }
 
-a:hover{
-  color:grey;
+nav{
+  width:250px;
+}
+
+a{
+  color:white;
+  font-family: arial black;
+  font-size: 35px;
+  text-align:left;
+  width:30vw;
+  text-decoration:none;
 }
 
 ul{
-  margin-left:25px;
-  width:725px;
+  width:190px;
+  color:white;  
+  font-family: arial black;
+  font-size: 35px;
   border-style:solid;
   border-width:6px;
   border-color:rgb(246,76,114);
   border-radius: 6px 12px 18px 24px;
+  margin-left:25px;
 }
 
-nav{
-  color:white;
-  font-family: arial black;
-  font-size: 30px;
-  text-decoration:none;
-  margin-left:2vw;
-  width:500px;
-  
+a:hover {
+  color:grey;
 }
 
 info{

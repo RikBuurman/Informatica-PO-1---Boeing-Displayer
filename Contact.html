@@ -3,14 +3,26 @@
 <html>
 <title>Boeing Aircraft Displayer</title>
 <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+
 <body>
 
-<header>Ways To Contact Us</header>
+	<header>Ways To Contact Us</header>
+	<div class="content">
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+			  <li><a href="Overview.html">Overview</a>
+				<li><a href="Contact.html">Contact</a></li>
+				<li><a href="B737.html">B737</a></li>
+				<li><a href="B747.html">B747</a></li>
+				<li><a href="B777.html">B777</a></li>
+			</ul>
+		</nav>
 
-<div class="container">
-  <form action="action.php">
+	<div class="container">
+			<form action="action.php">
 
-    <label for="fname">First Name</label>
+				<label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Enter Your First  Name...">
 
     <label for="lname">Last Name</label>
@@ -272,12 +284,12 @@
     <label for="phone">Phone Number</label>
     <input type="text" id="phone" name="phonenumber" placeholder="Enter your Phone Number...">
 
+    <label for="message">Message</label>
+    <textarea id="message" name="Message" placeholder="Write down your message..." style="height:150px"></textarea>
+
     <input type="submit" value="Submit">
     
   </form>
-
-<aside><img src="images/Contactphoto.jpg" width="824" height="376" alt="Contact" </aside>
-
 </div>
 </body>
 <footer>©Rik Buurman & Tygo de Wijn 2022</footer>
