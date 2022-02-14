@@ -27,34 +27,6 @@ body{
   background-color: rgb(31,40,51);
 }
 
-ul{
-  width:220px;
-  color:white;  
-  font-family: arial black;
-  font-size: 40px;
-  text-decoration:none;
-  border-style:solid;
-  border-width:7px;
-  border-color:rgb(246,76,114);
-  border-radius: 6px 12px 18px 24px;
-}
-
-nav{
-  font-size:40px;
-  font-family: arial black;
-  text-decoration:none;
-  margin-left:50px;
-  margin-top:50px;
-}
-
-a{
-  color:white;
-  font-family: arial black;
-  font-size: 40px;
-  width:20vw;
-  text-decoration:none;
-
-}
 
 header{
   width:800px;
@@ -72,3 +44,4 @@ header{
   margin-top:30px;
   height:210px;
   }
+
