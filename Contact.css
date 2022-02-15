@@ -6,9 +6,9 @@
   font-size:25px;
   color:white;
   width:600px;
-  margin-left:385px;
-
+  margin-left:20vw;
 }
+
 
 input[type=submit]:hover {
   background-color: #45a049;
