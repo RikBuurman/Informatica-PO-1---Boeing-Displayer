@@ -2,10 +2,6 @@ body{
   background-color:rgb(31,40,51);
 }
 
-.content{
-  display:flex;
-}
-
 header{
   font-family: arial black;
   font-size: 75px;
@@ -18,15 +14,7 @@ header{
   width:800px;
   margin-left:auto;
   margin-right:auto;
-}
-
-article{
-  font-size:30px;
-  text-align:center;
-  width: 75vw;
-  font-family: monospace;
-  margin:55px;
-  color:white;
+  margin-top:30px;
 }
 
 a{
@@ -39,7 +27,7 @@ a{
 }
 
 ul{
-  margin-left:25px;
+  margin-left:20px;
   width:190px;
   color:white;  
   font-family: arial black;
@@ -52,23 +40,4 @@ ul{
 
 a:hover {
   color: grey;
-}
-
-aside {
-  margin-right:20px;
-  margin-top: 60px;
-  
-}
-
-footer{
-  margin:0;
-  text-align:center;
-  width:100%;
-  bottom:0%;
-  height:35px;
-  position: fixed;
-  font-family: monospace;
-  font-size: 25px;
-  color:grey;
-  background-color: rgb(31,40,51);
 }
