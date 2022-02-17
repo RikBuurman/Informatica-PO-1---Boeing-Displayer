@@ -1,9 +1,9 @@
 .ul-1{
   margin-left:20px;
-  width:190px;
+  width:220px;
   color:white;  
   font-family: arial black;
-  font-size: 35px;
+  font-size: 40px;
   border-style:solid;
   border-width:6px;
   border-color:rgb(246,76,114);
@@ -42,13 +42,14 @@ header{
   margin-top:30px;
 }
 
+
 a{
   color:white;
   font-family: arial black;
-  font-size: 35px;
+  font-size: 40px;
   text-align:left;
-  width:25vw;
   text-decoration:none;
+  width:500px;
 }
 
 a:hover {
@@ -60,8 +61,6 @@ article{
   font-family: monospace;
   color:white;
   margin-top:50px;
-  margin-left:17vw;
-  padding:0;
-
+  margin-left:15vw;
 }
   
