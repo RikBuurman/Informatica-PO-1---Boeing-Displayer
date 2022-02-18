@@ -1,5 +1,5 @@
 footer{
-  margin:0;
+  margin-left:0px;
   text-align:center;
   width:100%;
   bottom:0%;
@@ -8,11 +8,16 @@ footer{
   font-family: monospace;
   font-size: 25px;
   color:grey;
-  background-color: rgb(31,40,51);
+  background-color:rgba(0, 0, 0, 0.774);
 }
 
 body{
-  background-color:rgb(31,40,51);
+
+  background-image: url("images/background7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 
 .content{
@@ -20,6 +25,7 @@ body{
 }
 
 header{
+  margin:auto;
   width:800px;
   font-family: arial black;
   font-size: 75px;
@@ -29,9 +35,8 @@ header{
   border-width:7px;
   border-color:rgb(102,252,241);
   border-radius: 60px 60px 60px 60px;
-  margin-left:auto;
-  margin-right:auto;
   margin-bottom: 30px;
+  margin-left:525px;
   margin-top:30px;
   height:210px;
 }
@@ -48,6 +53,7 @@ ul{
   border-width:7px;
   border-color:rgb(246,76,114);
   border-radius: 6px 12px 18px 24px;
+  position:absolute;
 }
 
 nav{
@@ -55,6 +61,9 @@ nav{
   font-family: arial black;
   text-decoration:none;
   margin-left:25px;
+  width:220px;
+  height:500px;
+  display:block;
 }
 
 a{
@@ -67,14 +76,16 @@ a{
 }
 
 article{
-  margin:5px;
   text-align:center;
-  height:350px;
-  width:45vw;
   color:white;
   font-size:37px;
   font-family: monospace;
-  margin-left:210px;
+  width:700px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  margin-top:400px;
+
 
 }
 
